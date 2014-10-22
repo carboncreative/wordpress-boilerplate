@@ -1,5 +1,5 @@
 <?php
-namespace Carbon\Setup;
+namespace Carbon;
 
 class ImageSizes
 {
