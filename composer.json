@@ -1,0 +1,23 @@
+{
+    "repositories": [{
+        "type": "composer",
+        "url": "http://wpackagist.org"
+    }],
+    "require": {
+        "php": ">=5.3.0",
+        "johnpbloch/wordpress": ">=4.0.0",
+        "wpackagist/w3-total-cache": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Carbon\\": "web/wp-content/themes/themename/lib"
+        }
+    },
+    "extra": {
+        "wordpress-install-dir": "web/wordpress",
+        "installer-paths": {
+            "web/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+            "web/wp-content/themes/{$name}/": ["type:wordpress-theme"]
+        }
+    }
+}

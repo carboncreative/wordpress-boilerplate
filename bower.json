@@ -1,0 +1,12 @@
+{
+  "name": "themename",
+  "version": "0.0.1-dev",
+  "authors": [
+    "Carbon Creative <webmaster@carboncreative.net>"
+  ],
+  "private": true,
+  "dependencies": {
+    "jquery": "~1",
+    "bootstrap-sass-official": "~3"
+  }
+}

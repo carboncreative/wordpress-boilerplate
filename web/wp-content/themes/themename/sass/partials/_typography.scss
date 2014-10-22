@@ -1,0 +1,49 @@
+@import "settings";
+@import "mixins";
+
+// Fonts
+// ==========================================================================
+
+// fonts here
+
+// Default Sizing, Colours & spacing
+// ==========================================================================
+
+body {
+    color: $base-font-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $heading-color;
+
+    & a {
+        color: $heading-color;
+    }
+}
+
+p, pre, label {
+    font-size: 1em;
+    line-height: #{$base-line-height / $base-font-size}em;
+    margin: 0 0 #{$base-line-height / $base-font-size}em 0;
+}
+
+ol, ul {
+    font-size: 1em;
+    line-height: #{$base-line-height / $base-font-size}em;
+    margin: 0 0 #{$base-line-height / $base-font-size}em 0;
+}
+
+li {
+    line-height: auto;
+}
+
+a {
+    color: $secondary-action;
+    transition: color, 0.3s, ease-out;
+    text-decoration: none;
+
+    &:hover {
+        color: $secondary-action-respond;
+        text-decoration: underline;
+    }
+}

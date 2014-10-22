@@ -1,0 +1,52 @@
+// Base settings
+// ==========================================================================
+
+// Font sizes
+$base-font-size: 14px;
+
+
+// The base line height determines the basic unit of vertical rhythm.
+$base-line-height: 24px;
+
+
+$h1-font-size: 2    * $base-font-size;
+$h2-font-size: 1.5  * $base-font-size;
+$h3-font-size: 1.17 * $base-font-size;
+$h4-font-size: 1    * $base-font-size;
+$h5-font-size: 0.83 * $base-font-size;
+$h6-font-size: 0.67 * $base-font-size;
+
+
+// The default font family.
+$base-font-family: "Helvetica Neue", "Arial", sans-serif;
+
+
+// The amount lists and blockquotes are indented.
+$indent-amount: 40px;
+
+
+
+// Colours
+// ==========================================================================
+
+// Define your main colour palette
+$primary: #666;
+$secondary: #222;
+$tertiary: #444;
+
+$base-font-color: #333;
+
+$body-bg: auto;
+
+
+// Assign colours to variable roles
+$base-color: $primary;
+$heading-color: $secondary;
+$secondary-heading-color: $tertiary;
+
+
+// Links
+$action: $primary;
+$action-respond: $secondary;
+$secondary-action: $action-respond;
+$secondary-action-respond: $action;
